@@ -1,0 +1,227 @@
+
+body {
+    font-family: 'PF Bague Sans Pro';
+}
+
+.container{
+    max-width: 1440px;
+}
+.main{
+    width: 1440px;
+    height: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.main-image {
+    background-image: url('../image/Main\ 1.jpg');
+    max-width: 1440px;
+    counter-increment: slide;
+    background-repeat: no-repeat;
+    
+    }
+
+.subtract{
+   display: flex;
+   justify-content: space-between;
+   z-index: 5;
+}
+.subtract-texts{
+    padding-top: 380px;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 152px;
+    margin: 0;
+    mix-blend-mode: overlay;
+    color: #FFFFFF; 
+    text-transform: uppercase;
+}
+.subtract-text{
+    padding-top: 380px;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 152px;
+    margin: 0;
+    color: #FFFFFF; 
+    text-transform: uppercase;
+}
+
+.subtract-img{
+    width: 190px;
+    margin-left: 625px;
+  
+}
+.block-one{
+    min-width: 1200px;
+    margin-top: 180px;
+    
+
+}
+.one{
+    text-align: center;
+}
+.block-title{
+    margin-top: 0;
+    margin-bottom: 0;
+   
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.block-p{
+    font-family: 'PF Square Sans Pro';
+    display: block;
+    width: 1000px;
+    margin: 50px 220px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+.price{
+    text-align: center;
+   
+}
+.block-price{
+    width: 400px;
+    padding-top: 29px;
+    padding-bottom: 19px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    background: #F26522;
+    color: #FFFFFF;
+}
+.section-two{
+    display: flex;
+    min-width: 1215px;
+    margin-top: 180px;
+}
+.section-left{
+    width: 773px;
+    height: 496px;
+    margin-right: 21px;
+    margin-bottom: 0;
+    background-color: #F26522;
+}
+.section-two-title{
+    width: 467px;
+    margin: 0;
+    padding-top: 53px;
+    padding-left: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section-two-p{
+    margin: 0;
+    padding-left: 150px;
+    color: #FFFFFF;
+}
+.section-two-img{
+    width: 773px;
+    margin-top: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+.section-two-a{
+    width: 585px;
+    margin: 0;
+    padding-top: 45px;
+    padding-left: 150px;
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section-two-b{
+    width: 585px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 42px;
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.section-right-a{
+    width: 410px;
+    font-family:'PF Square Sans Pro';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.section-right-b{
+    width: 410px;
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.three{
+    margin-top: 167px;
+    background: #F8F8F8;
+}
+.section-three{
+    text-align: center;
+    padding-top: 131px;
+}
+.section-three-h2{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.section-three-p{
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.tabs-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -11px;
+
+}
+.tabs-card1{
+    margin: 11px;
+    max-width:380px;
+    background: #FFFFFF;
+}
+.tabs-card2{
+    margin: 11px;
+    max-width:380px;
+    background: #FFFFFF;
+}
+.tabs-card3{
+    margin: 11px;
+    max-width:380px;
+    background: #FFFFFF;
+}
+.tabs-item{
+    margin: 20px 30px;
+}
+.tabs-svg{
+    margin-right: 24px;
+}
