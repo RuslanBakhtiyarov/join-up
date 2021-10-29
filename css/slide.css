@@ -1,0 +1,83 @@
+.sladeshow{
+    position: relative;
+    margin: auto;
+}
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,.next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.texts{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    width:100%;
+    margin-top: -50px;
+
+}
+.text{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 152px;
+    text-transform: uppercase;
+    margin: 0;
+    color:#fff;
+}
+.tr{
+    mix-blend-mode: overlay;
+}
+.dots-do{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 700px;
+    margin-bottom: 0;
+}
+.dot{
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,.dot:hover{
+    background-color: #717171;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-direction: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{opacity: .4s}
+    to{opacity: 1}
+}
+@keyframes fabe{
+    from{opacity: .4s}
+    to{opacity: 1}
+}
+.subtract-img{
+    position: absolute;
+   background-color: black;
+}

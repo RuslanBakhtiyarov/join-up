@@ -2,61 +2,12 @@
 body {
     font-family: 'PF Bague Sans Pro';
 }
-
 .container{
     max-width: 1440px;
 }
-.main{
-    width: 1440px;
-    height: 810px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: -1;
-}
-
-.main-image {
-    background-image: url('../image/Main\ 1.jpg');
-    max-width: 1440px;
-    counter-increment: slide;
-    background-repeat: no-repeat;
-    
-    }
-
-.subtract{
-   display: flex;
-   justify-content: space-between;
-   z-index: 5;
-}
-.subtract-texts{
-    padding-top: 380px;
-    font-weight: 800;
-    font-size: 130px;
-    line-height: 152px;
-    margin: 0;
-    mix-blend-mode: overlay;
-    color: #FFFFFF; 
-    text-transform: uppercase;
-}
-.subtract-text{
-    padding-top: 380px;
-    font-weight: 800;
-    font-size: 130px;
-    line-height: 152px;
-    margin: 0;
-    color: #FFFFFF; 
-    text-transform: uppercase;
-}
-
-.subtract-img{
-    width: 190px;
-    margin-left: 625px;
-  
-}
 .block-one{
     min-width: 1200px;
-    margin-top: 180px;
-    
-
+    margin-top: 150px;
 }
 .one{
     text-align: center;
@@ -64,7 +15,6 @@ body {
 .block-title{
     margin-top: 0;
     margin-bottom: 0;
-   
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -86,7 +36,6 @@ body {
 }
 .price{
     text-align: center;
-   
 }
 .block-price{
     width: 400px;
@@ -323,9 +272,21 @@ body {
 }
 .section-six-cards{
     display: flex;
-    margin-top: 231px;
-    margin-left: 120px;
+    padding-top: 110px;
     padding: -13px;
+    z-index: 2;
+}
+.insta-frame{
+    background: url('../image/рамка\ телеффон.svg') no-repeat;
+    color: #000000;
+    position: relative;
+    width: 405px;
+    height: 784px;
+    margin-top: 111px;
+    margin-left: 520px;
+    display: flex;
+    justify-content: center;
+    z-index: -4;
 }
 .section-six-card{
     max-width: 380px;
@@ -349,6 +310,7 @@ body {
     margin-left: 24px;
 }
 .section-six-footer-h4{
+    margin-bottom: 0;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -357,13 +319,60 @@ body {
 }
 .section-six-footer-p{
     width: 336px;
+    margin: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
     color: #333333;
 }
-.insta-frame{
+.section-seven{
     display: flex;
-    justify-content: center;
+    margin-top: 180px;
 }
+.section-seven-video{
+    margin: auto;
+    padding: auto;
+}
+.section-eight{
+    margin-top: 177px;
+}
+.section-eight-h3{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-eight-p{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.modal{
+    display: block;
+    justify-content: center;
+    width: 768px;
+    height: 559px;
+    margin: auto;
+    background-color: #F26522;
+}
+.modal-p{
+    padding-top: 51px;
+    padding-left: 36px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+    
+
+
+
+ 
