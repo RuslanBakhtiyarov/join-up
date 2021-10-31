@@ -35,17 +35,18 @@ body {
     color: #000000;
 }
 .price{
+    margin-top: 60px;
     text-align: center;
+    font-size: 24px;
 }
 .block-price{
     width: 400px;
-    padding-top: 29px;
-    padding-bottom: 19px;
-    padding-left: 100px;
-    padding-right: 100px;
+    height: 90px;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
     text-decoration: none;
-    background: #F26522;
     color: #FFFFFF;
+    background: #F26522;
 }
 .section-two{
     display: flex;
@@ -175,6 +176,7 @@ body {
 .tabs-svg{
     margin-right: 24px;
 }
+/*-----*/
 .section-four-h2{
     margin-top: 179px;
     margin-bottom: 0;
@@ -194,24 +196,62 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.section-four-fon{
+.section-four-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.section-four-content{
     width: 388px;
     height: 687px;
     margin-top: 61px;
     margin-left: 120px;
-    background: #F26522;
-}
-.section-four-content{
-    padding-top: 79px;
-    padding-left: 70px; 
+    background-color: #F26522;
 }
 .section-four-img{
-    display: flex;
+    margin-top: 79px;
+    margin-left: 70px;
+}
+.section-four-image{
+    width: 520px;
+    height: 530px;
 }
 .section-four-card{
-    padding-left: 40px;
-    
+    display: flex;
+    margin-top: 140px;
+    margin-right: 200px;
 }
+.section-four-test{
+    margin: 0;
+    list-style: none;
+}
+.section-four-h3{
+    margin: 0;
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #000000;
+}
+.section-four-span{
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    margin: 0;
+  
+}
+.section-four-p2{
+    font-family: PF Square Sans Pro;
+    padding-top: 40px;
+    width: 256px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.section-four-pointer{
+    padding-top: 450px;
+}
+/*------*/
 .section-five{
     margin-top: 200px;
 }
@@ -233,25 +273,48 @@ body {
 }
 .promo-card{
     display: flex;
+   
 }
 .promo{
     width: 457px;
+    height: 478px;
     margin-top: 50px;
-    margin-left: 120px;
+    margin-left: 80px;
+    list-style: none;
+}
+.promo-bold{
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
 }
 .promo-p{
-    font-size: 20px;
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+.promo-p-text{
+    margin-bottom: 31px;
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
 }
 .section-five-right{
     width: 388px;
-    margin-left: 233px;
+    height: 687px;
     margin-top: 30px;
-    padding-bottom: 45px;
-    margin-bottom: 40px;
     background: #F26522;
 }
 .section-five-image{
-    width: 320px;
+    width: 520px;
+    height: 520px;
+    margin-left: 154px;
     margin-top: 60px;
 }
 .section-six{
@@ -347,6 +410,7 @@ body {
     text-transform: uppercase;
 }
 .section-eight-p{
+    padding-bottom: 49px;
     margin: 0;
     font-style: normal;
     font-weight: normal;
@@ -360,18 +424,94 @@ body {
     width: 768px;
     height: 559px;
     margin: auto;
+    padding-top: 51px;
+    padding-left: 60px;
     background-color: #F26522;
 }
 .modal-p{
-    padding-top: 51px;
-    padding-left: 36px;
+    margin: auto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
 }
-    
+.modal-input{
+    width: 691px;
+    height: 58px;
+    margin-bottom: 49px;
+}
+.button-modal{
+    width: 700px;
+    height: 60px;
+    background: #F26522;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+.modal-text{
+    width: 691px;
+    height: 23px;
+    display: block;
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+input:invalid {
+    border: 2px dashed #FFFFFF;
+}
+input:valid {
+    border: 2px solid black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 155px;
+    margin-top: 145px;
+    background-color: #F26522;
+}
+.footer-logo{
+    width: 200px;
+    margin-top: 44px;
+}
+.footer-p{
+    display: flex;
+    width: 237px;
+    margin-top: 95px;
+    margin-left: 62px;
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.footer-text{
+    display: block;
+    list-style: none;
+    margin-top: 47px;
+    margin-left: 350px;
+   
+}
+.footer-text-span{
+    font-family: PF Square Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 9px;
+    color: #FFFFFF;
+
+}
 
 
 
