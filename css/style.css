@@ -306,16 +306,28 @@ body {
     line-height: 29px;
 }
 .section-five-right{
+}
+.five-right{
     width: 388px;
-    height: 687px;
+    position: relative;
     margin-top: 30px;
+    margin-left: 356px;
+     z-index: 1;
+}
+.five-right::before{
+    content: '';
+    position: absolute;
+    width: calc(60% + 70px);
+    top: -70px;
+    bottom: -70px;
     background: #F26522;
+    z-index: -3;
 }
 .section-five-image{
     width: 520px;
     height: 520px;
-    margin-left: 154px;
     margin-top: 60px;
+    margin-left: 154px;
 }
 .section-six{
     margin-top: 150px;
